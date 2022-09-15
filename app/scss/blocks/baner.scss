@@ -1,0 +1,40 @@
+.baner{
+    height: 100vh;
+    img{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .baner__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 500px;
+
+        li{
+            padding: 15px 30px;
+            list-style-type: none;
+            background-color:  #99862A;
+            margin: 0 30px 20px;
+            cursor: pointer;
+    
+            &:hover{
+                opacity: .7;
+            }
+            
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    } 
+
+}
+

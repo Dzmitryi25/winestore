@@ -1,0 +1,43 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.container{
+    max-width: 1110px;
+    margin: auto;
+}
+h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+@import 'header.scss'; 
+@import './components/burger__menu.scss';
+@import './blocks/baner.scss';
+@import './blocks/text__simple.scss';
+@import './blocks/text__images.scss';
+@import './blocks/contacts.scss';
+@import './blocks/products.scss';
+@import 'footer.scss'; 
+
+
+
+
+
+
+
+
+
