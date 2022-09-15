@@ -1,5 +1,8 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
-
+body {
+    display: flex;
+    flex-direction: column;
+}
 .container{
     max-width: 1110px;
     margin: auto;
